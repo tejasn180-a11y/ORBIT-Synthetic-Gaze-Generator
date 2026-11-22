@@ -1,0 +1,38 @@
+ORBIT — SYNTHETIC EYE MOVEMENT & VIRTUAL CAMERA RENDERING
+
+This starter kit is intended for Blender 5.x on Windows.
+
+BEFORE YOU START
+1. Create this folder if you have not already:
+   C:\Users\YOUR_WINDOWS_USERNAME\ORBIT_SyntheticEye_Project
+2. Extract build_scene.py directly into that folder.
+3. Do not extract into the old SyntheticEyeSubmission folder.
+
+RUN IT
+1. Open Blender.
+2. Click the Scripting workspace at the top.
+3. In the Text Editor, choose Open and select build_scene.py.
+4. Click inside the code and press Alt+P (or click Run Script / the play icon).
+5. Wait for the console to print COMPLETE and Direction tests pass: True.
+
+OUTPUT
+The script creates:
+C:\Users\YOUR_WINDOWS_USERNAME\ORBIT_SyntheticEye_Project\Submission\
+  scene.blend
+  build_scene.py
+  wrapper\eyes.py
+  renders\frame_00.png ... frame_09.png
+  metadata.json
+  validation.json
+  README.md
+  demo\contact_sheet.html
+
+It also creates:
+C:\Users\YOUR_WINDOWS_USERNAME\ORBIT_SyntheticEye_Project\ORBIT_Solo.zip
+
+IMPORTANT
+- The scene is a procedural demonstrator with spherical eyeballs and independent eye pivots.
+- It is not a full MakeHuman, GNM or FLAME textured face asset. If the rubric strictly requires one, that is a separate requirement and should not be falsely claimed.
+- The nominal camera distance is 40 cm from the eye-pivot midpoint; the fixation target is 35 cm forward from that midpoint.
+- Inspect all renders, metadata and validation before submitting.
+- Save a copy of the .blend file after any manual edits using Ctrl+S.

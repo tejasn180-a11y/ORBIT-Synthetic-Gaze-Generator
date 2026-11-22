@@ -1,0 +1,66 @@
+{
+  "overall_pass": true,
+  "tests": [
+    {
+      "direction": "Left",
+      "eyes": {
+        "L": {
+          "delta_px": -43.396,
+          "pass": true
+        },
+        "R": {
+          "delta_px": -45.841,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "direction": "Right",
+      "eyes": {
+        "L": {
+          "delta_px": 45.841,
+          "pass": true
+        },
+        "R": {
+          "delta_px": 43.395,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "direction": "Up",
+      "eyes": {
+        "L": {
+          "delta_px": -37.062,
+          "pass": true
+        },
+        "R": {
+          "delta_px": -37.062,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "direction": "Down",
+      "eyes": {
+        "L": {
+          "delta_px": 36.915,
+          "pass": true
+        },
+        "R": {
+          "delta_px": 36.915,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "direction": "Reset",
+      "pass": true,
+      "max_pixel_error": 0.0
+    }
+  ]
+}
